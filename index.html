@@ -6,9 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -74,7 +76,7 @@
   <div class="about-div">
     <h1>About Us</h1>
     <div class="line-div"></div>
-    <div class="row">
+    <div class="row mt-4">
       <div class="col-xl-6 col-lg-6 col-md-12">
         <div class="item">
           <img src="img/cart.png" alt="">
@@ -83,7 +85,7 @@
       <div class="col-xl-6 col-lg-6 col-md-12">
         <div class="item">
           <div class="info">
-            <h1>Our Mission</h1>
+            <h2>Our Mission</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam consequuntur ullam ex, quia
               deserunt quas repudiandae libero, et neque in, iusto blanditiis explicabo ratione error incidunt officia.
@@ -91,7 +93,7 @@
             </p>
           </div>
           <div class="info">
-            <h1>Our Mission</h1>
+            <h2>Our Mission</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam consequuntur ullam ex, quia
               deserunt quas repudiandae libero, et neque in, iusto blanditiis explicabo ratione error incidunt officia.
@@ -99,7 +101,7 @@
             </p>
           </div>
           <div class="info">
-            <h1>Our Mission</h1>
+            <h2>Our Mission</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam consequuntur ullam ex, quia
               deserunt quas repudiandae libero, et neque in, iusto blanditiis explicabo ratione error incidunt officia.
@@ -113,27 +115,67 @@
   <div class="gallary-div">
     <h1>Our Gallary</h1>
     <div class="line-div"></div>
-    <div class="products row">
-      <div class="img-div1 item col-xl-4 col-lg-6 col-md-12 col-sm-12">
-        <img src="img/shirt-clothes.jpg" alt="">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Collection A</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Collection B</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Collection C</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="row">
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/cotton.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/shirt-clothes.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/stack-men-shirt.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/shirt-3.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/shirt-4.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/fashion-polo-shirt-men.jpg" alt="">
+          </div>
+        </div>
       </div>
-      <div class="img-div2 item col-xl-4 col-lg-6 col-md-12">
-        <img src="img/shirt-clothes.jpg" alt="">
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="row">
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/fashion-polo-shirt-men.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/fashion-polo-shirt-men.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/fashion-polo-shirt-men.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/fashion-polo-shirt-men.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/fashion-polo-shirt-men.jpg" alt="">
+          </div>
+          <div class="item col-xl-4 col-lg-6 col-md-12">
+            <img src="./img/fashion-polo-shirt-men.jpg" alt="">
+          </div>
       </div>
-      <div class="img-div2 item col-xl-4 col-lg-6 col-md-12">
-        <img src="img/shirt-clothes.jpg" alt="">
-      </div>
-      <div class="img-div2 item col-xl-4 col-lg-6 col-md-12">
-        <img src="img/shirt-clothes.jpg" alt="">
-      </div>
-      <div class="img-div2 item col-xl-4 col-lg-6 col-md-12">
-        <img src="img/shirt-clothes.jpg" alt="">
-      </div>
-      <div class="img-div2 item col-xl-4 col-lg-6 col-md-12">
-        <img src="img/shirt-clothes.jpg" alt="">
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        
       </div>
     </div>
   </div>
+  <div class="space"></div>
   <div class="contact-div">
     <h1>Contact Us</h1>
     <div class="line-div"></div>
@@ -157,6 +199,7 @@
       </div>
     </div>
   </div>
+  <div class="space"></div>
   <footer class="site-footer" id="end">
     <div class="container">
       <div class="row">

@@ -1,7 +1,19 @@
+/*====== FONTS STYLE ======*/
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+h1 , h2{
+    font-family: 'Noto Sans', sans-serif;
+    color: #cb997e;
+    font-weight: 800;
+}
+
+
 /*====== NAVBAR STYLE ======*/
 
 .navbar{
-    background-color: rgb(36, 36, 36);
+    background-color: rgba(36, 36, 36, 0.95);
 }
 .navbar a img{
     width: 60px;
@@ -19,9 +31,6 @@
 
 /*====== CAROUSEL STYLE ======*/
 
-.carousel{
-    margin-bottom: 20px;
-}
 .about-div,.gallary-div, .contact-div{
     background-color: rgb(36, 36, 36);
     text-align: center;
@@ -55,26 +64,32 @@
 
 /*====== GALLARY DIV STYLE ======*/
 
-.products{
-    width: 100%;
-    margin-top: 15px;
-}
 
-/*==== FLEX IMGS IN PROUDUCT DIV ====*/
-
-.products .img-div1, .img-div2{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+.nav-tabs{
     margin-top: 10px;
+    margin-bottom: 10px;
 }
-.products .img-div1 img{
-    width: 100%;
-    border-radius: 20px;
+.nav-tabs .nav-item{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
 }
-.products .img-div2 img{
-    width: 100%;
+.nav-tabs .nav-item a{
+    color: white;
+}
+.tab-content .row .item img{
     border-radius: 20px;
+    margin-bottom: 15px;
+    height: 400px;
+    margin-left: 15px;
+}
+
+.space{
+    width: 100%;
+    height: 15px;
+    background-color: white;
+    margin-top: 5px;
 }
 
 /*====== CONTACT DIV STYLE ======*/
@@ -130,9 +145,13 @@ footer hr{
         margin-bottom: 5px;
     }
     .gallary-div *{
-        margin-left: 12px;
+        margin: auto;
+        margin-bottom: 5px;
     }
     .gallary-div .line-div {
         margin: auto;
+    }
+    .contact-div .row .item h1{
+        display: none;
     }
 }
