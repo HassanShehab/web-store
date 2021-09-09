@@ -28,6 +28,9 @@ h1 , h2{
     color: rgb(36, 36, 36);
     border-radius: 25px;
 }
+.navbar-toggler{
+    background-color: rgb(197, 197, 197);
+}
 
 /*====== CAROUSEL STYLE ======*/
 
@@ -135,6 +138,16 @@ footer ul{
 }
 footer hr{
     border-color: darkgrey;
+}
+footer .social-icons{
+    display: flex;
+}
+footer .instagram , .facebook{
+    margin-left: 20px;
+    color: white;
+}
+footer .instagram:hover{
+    color: rgb(240, 74, 45);
 }
 
 /*====== MEDIA STYLE ======*/
