@@ -142,9 +142,14 @@ footer hr{
 footer .social-icons{
     display: flex;
 }
-footer .instagram , .facebook{
-    margin-left: 20px;
+footer .social-icons a{
     color: white;
+}
+footer .social-icons .instagram , .facebook{
+    margin-left: 20px;
+}
+footer .facebook:hover{
+    color: rgb(32, 65, 155);
 }
 footer .instagram:hover{
     color: rgb(240, 74, 45);
